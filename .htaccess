@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.*)/(.*).html?\?*(.*)$ index.php?app=$1&action=$2&$3
